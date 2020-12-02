@@ -12,6 +12,10 @@
   .displayCard:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
+
+  .displayContainer{
+    margin-left: 215px;
+  }
   
   /* Add some padding inside the card container */
   .container {
@@ -22,15 +26,36 @@
     margin-top: 0;
   }
 
-  @media only screen and (max-width:480px) {
+  @media only screen and (max-width:700px) {
     .displayCard {
       width: 94%;
       height: 500px;
     }
   }
-  @media only screen and (min-width: 481px) and (max-width:768px) {
+  @media only screen and (min-width: 701px) and (max-width:1024px) {
     .displayCard {
-      width: 43%;
+      width: 40%;
       height: 400px;
+    }
+    .displayContainer{
+      margin-left: 242px;
+    }
+  }
+  @media only screen and (width: 1024px) {
+    .displayCard {
+      width: 40%;
+      height: 400px;
+    }
+    .displayContainer{
+      margin-left: 326px;
+    }
+  }
+  @media only screen and (min-width: 1025px) and (max-width:1440px) {
+    .displayCard {
+      width: 22%;
+      height: 430px;
+    }
+    .displayContainer{
+      margin-left: 215px;
     }
   }

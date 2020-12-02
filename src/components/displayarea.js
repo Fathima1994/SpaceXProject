@@ -11,7 +11,7 @@ function DisplayArea(props) {
       }, []);
 
     return (
-        <div style={{marginLeft:'215px'}} className='displayContainer'>
+        <div className='displayContainer'>
             <SpaceXLists spaceXLists={props.spaceXLists}/>
         </div>
     )
