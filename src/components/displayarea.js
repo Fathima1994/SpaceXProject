@@ -11,9 +11,11 @@ function DisplayArea(props) {
       }, []);
 
     return (
-        <div className='displayContainer'>
-            <SpaceXLists spaceXLists={props.spaceXLists}/>
-        </div>
+        <React.Fragment>
+            <div className='displayContainer'>
+                <SpaceXLists spaceXLists={props.spaceXLists}/>
+            </div>
+        </React.Fragment>
     )
 }
 

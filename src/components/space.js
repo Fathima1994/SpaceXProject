@@ -8,6 +8,7 @@ function Space() {
             <h1>SpaceX Launch Programs</h1>
             <FilterSection />
             <DisplayArea />
+            <h3 style={{textAlign:'center'}} className='footer'>Developed By: Syeda Fathima</h3>
         </div>
     )
 }
